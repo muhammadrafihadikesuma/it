@@ -13,12 +13,12 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- SCRIPT DATE -->
-  <script src="js/jquery.min.js"></script>
-  <script src="js/popper.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/moment-with-locales.min.js"></script>
-  <script src="js/bootstrap-datetimepicker.min.js"></script>
-  <script src="js/main.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/moment-with-locales.min.js"></script>
+  <script src="assets/js/bootstrap-datetimepicker.min.js"></script>
+  <script src="assets/js/main.js"></script>
 
 
   <!-- Vendor JS Files -->
