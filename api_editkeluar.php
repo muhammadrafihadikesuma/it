@@ -1,6 +1,6 @@
 <?php 
 
-include 'config.php';
+require 'config.php';
 
 $id_item=$_POST['id_item'];
 $nama_pengirim=$_POST['nama_pengirim'];

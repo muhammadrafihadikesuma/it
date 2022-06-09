@@ -84,7 +84,7 @@
                                 <!-- TANGGAL BELI -->
                                 <div class="col-12">
                                     <div class="form-floating mb-3">
-                                        <input type="datetime-local" class="form-control" value="<?php echo date("Y-m-d\TH:i:s", time()); ?>" id="tanggalbeli" name="tanggalbeli" required>
+                                        <input type="date" class="form-control" id="tanggalbeli" name="tanggalbeli" required>
                                         <label for="tanggalbeli">Tanggal Beli</label>
                                     </div>
                                 </div>

@@ -102,7 +102,6 @@
                                     <label for="6">Keterangan</label>
                                 </div>
 
-                                <!-- ID Author -->
                                 <!-- Author -->
                                 <div class="col-12">
                                     <div class="form-floating mb-3">

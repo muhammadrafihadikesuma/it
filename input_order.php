@@ -108,11 +108,10 @@
                                 </div>
 
                                 <!-- Remark -->
-                                <div class="col-12">
-                                    <div class="form-floating mb-3">
-                                        <textarea class="form-control" name="remark" placeholder="Masukkan" id="5" onkeyup="my5()" data-enable-grammarly="false" style="height: 150px;" required> </textarea>
-                                        <label for="user">Remark</label>
-                                    </div>
+                                <div class="col-12"></div>
+                                <div class="form-floating mb-3">
+                                    <textarea class="form-control" id="6" name="remark" data-enable-grammarly="false" placeholder="Masukkan Keluhan Pasien" style="height: 150px;" onkeyup="my6()" required></textarea>
+                                    <label for="6">Remark</label>
                                 </div>
 
                                 <!-- Status Order -->
