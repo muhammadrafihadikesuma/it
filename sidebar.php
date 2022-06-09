@@ -125,8 +125,6 @@
     </li>
     <!-- End Icons Nav -->
 
-
-    
     <li class="nav-item">
       <a class="nav-link collapsed" data-bs-target="#rencana-nav" data-bs-toggle="collapse" href="#">
         <i class="bi bi-calendar-check"></i><span>Rencana Kegiatan</span><i class="bi bi-chevron-down ms-auto"></i>
@@ -144,8 +142,25 @@
         </li>
       </ul>
     </li>
-
     
+    <li class="nav-item">
+      <a class="nav-link collapsed" data-bs-target="#harian-nav" data-bs-toggle="collapse" href="#">
+        <i class="bi bi-calendar3"></i><span>Kegiatan Harian</span><i class="bi bi-chevron-down ms-auto"></i>
+      </a>
+      <ul id="harian-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+        <li>
+          <a href="data_harian.php">
+            <i class="bi bi-circle"></i><span>Data Kegiatan harian</span>
+          </a>
+        </li>
+        <li>
+          <a href="input_harian.php">
+            <i class="bi bi-circle"></i><span>Input Kegiatan Harian</span>
+          </a>
+        </li>
+      </ul>
+    </li>
+
     <?php if ($_SESSION['level'] == 'admin') { ?>
       <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#user-nav" data-bs-toggle="collapse" href="#">
@@ -214,6 +229,14 @@
         <span>Rencana Kegiatan</span>
       </a>
     </li>
+
+    <li class="nav-item">
+      <a class="nav-link collapsed" href="input_harian.php">
+        <i class="bi bi-pencil-square"></i>
+        <span>Kegiatan Harian</span>
+      </a>
+    </li>
+
 
     <?php if ($_SESSION['level'] == 'admin') { ?>
       <li class="nav-item">
