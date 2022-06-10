@@ -11,7 +11,7 @@ $kegiatan=$_POST['kegiatan'];
 $status=$_POST['status'];
 $author=$_POST['author'];
 
-$send=mysqli_query($koneksi, "INSERT INTO planning  VALUES('$id_planning',
+$send=mysqli_query($koneksi, "INSERT INTO planning VALUES(     '$id_planning',
                                                                '$id_author',
                                                                '$date',
                                                                '$date_w',
