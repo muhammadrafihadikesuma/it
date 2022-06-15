@@ -21,7 +21,6 @@ if ($_SESSION['level'] == "") {
   <meta content="" name="keywords">
 
   <!-- Link Search Select Option -->
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
   <link rel="stylesheet" href="assets/css/select2.min.css" />
   <link rel="stylesheet" href="assets/css/select2-bootstrap-5-theme.min.css" />
   <!-- Or for RTL support -->

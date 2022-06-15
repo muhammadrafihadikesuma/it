@@ -12,15 +12,6 @@
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- SCRIPT DATE -->
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/popper.js"></script>
-  <script src="assets/js/bootstrap.min.js"></script>
-  <script src="assets/js/moment-with-locales.min.js"></script>
-  <script src="assets/js/bootstrap-datetimepicker.min.js"></script>
-  <script src="assets/js/main.js"></script>
-
-
   <!-- Vendor JS Files -->
   <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -30,9 +21,11 @@
   <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
   <script src="assets/vendor/tinymce/tinymce.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+  
   <!-- Scripts Select2 -->
   <script src="assets/js/jquery.slim.min.js"></script>
   <script src="assets/js/select2.full.min.js"></script>
+  
   <!-- DATATABLES -->
   <script src="assets/js/jquery.dataTables.min.js"></script>
   <script src="assets/js/dataTables.bootstrap5.min.js"></script>
@@ -44,11 +37,12 @@
   <script src="assets/js/vfs_fonts.js"></script>
   <script src="assets/js/buttons.print.min.js"></script>
   <script src="assets/js/buttons.colVis.min.js"></script>
-  <script src="assets/js/bootstrap-datetimepicker.min.js"></script>
+  <!-- <script src="assets/js/bootstrap-datetimepicker.min.js"></script> -->
   <script src="assets/js/moment-with-locales.min.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  
   <!-- Script DataTables -->
   <script>
       $(document).ready(function() {
@@ -83,7 +77,7 @@
       });
   </script>
   <!-- SCRIPT DATE TIME -->
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
       $(function() {
           $('#tanggalbeli').datetimepicker({
               language: 'en',
@@ -91,7 +85,7 @@
               format: 'mm/dd/yyyy hh:ii:ss'
           });
       });
-  </script>
+  </script> -->
 
 
   <script>
