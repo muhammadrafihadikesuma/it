@@ -55,7 +55,7 @@
                                 <!-- Tanggal Mulai Pengerjaan-->
                                 <div class="col-12">
                                     <div id="datetimepicker2" class="form-floating mb-3">
-                                        <input type="date" name="date_w" class="form-control" id="tanggalbeli" required>
+                                        <input type="date" name="date_w" class="form-control" id="tanggalbeli">
                                         <label for="tanggalbeli">Tanggal Mulai Pengerjaan</label>
                                     </div>
                                 </div>
