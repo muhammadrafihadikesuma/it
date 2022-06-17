@@ -4,10 +4,10 @@
           <strong><span> &copy; 2022 PT. PINANG WITMAS SEJATI </span></strong> </>. All Rights Reserved.
       </div>
       <div class="credits">
-      Develop by <a href="https://github.com/muhammadrafihadikesuma">
-          Muhammad Rafi Hadi Kesuma
-      </a> 
-    </div>
+          Develop by <a href="https://github.com/muhammadrafihadikesuma">
+              Muhammad Rafi Hadi Kesuma
+          </a>
+      </div>
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
@@ -21,11 +21,11 @@
   <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
   <script src="assets/vendor/tinymce/tinymce.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
-  
+
   <!-- Scripts Select2 -->
   <script src="assets/js/jquery.slim.min.js"></script>
   <script src="assets/js/select2.full.min.js"></script>
-  
+
   <!-- DATATABLES -->
   <script src="assets/js/jquery.dataTables.min.js"></script>
   <script src="assets/js/dataTables.bootstrap5.min.js"></script>
@@ -42,25 +42,37 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  
+
   <!-- Script DataTables -->
   <script>
       $(document).ready(function() {
           var table = $('#dataTable').DataTable({
               // lengthChange: false,
 
-              buttons: [
-                  'copy',
-                  'colvis',
+              buttons: [{
+                      extend: 'copyHtml5',
+                      exportOptions: {
+                          columns: [0, ':visible']
+                      }
+                  },
+
                   <?php if ($_SESSION['level'] == 'admin') { ?>,
-                      'excel', {
+                      //   'excel', 
+                      {
+                          extend: 'excelHtml5',
+                          exportOptions: {
+                              columns: ':visible'
+                          }
+                      },
+                      {
                           extend: 'pdfHtml5',
                           orientation: 'landscape',
                           pageSize: 'LEGAL',
                           download: 'open',
-
-                      }, 'print',
-                  <?php } ?>
+                      },
+                      'print',
+                  <?php } ?>,
+                  'colvis'
               ],
 
               dom: "<'row'<'col-md-3'l><'col-md-5'B><'col-md-4'f>>" +
